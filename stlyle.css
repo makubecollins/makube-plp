@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+label {
+    margin-top: 10px;
+}
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.error {
+    color: red;
+    font-size: 0.8em;
+}
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+}
+#toggleButton {
+    margin-top: 10px;
+}
